@@ -560,9 +560,6 @@
                                                 </div>
                                             </div>
                                             <div class="profile-dropdown-divider"></div>
-                                            <a href="{{ route('profile.edit') }}" class="profile-dropdown-item">
-                                                <i class="fa-solid fa-user-pen"></i> My Profile
-                                            </a>
                                             <a href="{{ route('dashboard') }}" class="profile-dropdown-item">
                                                 <i class="fa-solid fa-gauge-high"></i> Dashboard
                                             </a>
