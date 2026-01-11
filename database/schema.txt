@@ -1,0 +1,8 @@
+materials: id, name, unit, quantity--crud,
+
+menu: id, name, details
+images: id, menu_id, image
+
+--menu add korar somoy material search korbo trpor material details e insert korbo....
+
+menudetails: id , menu_id, material_id, quantity

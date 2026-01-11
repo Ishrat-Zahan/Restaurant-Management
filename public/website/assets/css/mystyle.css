@@ -1,0 +1,66 @@
+
+.myIcons {
+    color: white;
+    background-color: #FFA200;
+    height: 35px;
+  }
+  
+  .cardImg {
+    height: 200px;
+    /* Set a fixed height for the card images */
+    width: 100%;
+    /* Make sure the container spans the full width */
+    overflow: hidden;
+    /* Hide any overflow to keep the images inside the container */
+  }
+  
+  .cardImg img {
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the container */
+    height: 100%;
+    /* Make the image fill the entire container height */
+    width: 100%;
+    /* Make the image fill the entire container width */
+  }
+  
+  /*............................... card img end....................*/
+  
+  
+  .portfolio-wrapper2 {
+    position: relative;
+  }
+  
+  .myIcons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    background-color: #FFA200;
+    /* Set the background color to #FFA200 */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .portfolio-wrapper2:hover .myIcons {
+    opacity: 1;
+  }
+  
+  /* Style the icons */
+  .myIcons span {
+    font-size: 24px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .myIcons span:hover {
+    transform: scale(1.2);
+  
+  }
